@@ -1,0 +1,8 @@
+<p>
+  products works!
+  List of Products:{{products}}
+  </p>
+  <ol>
+    <li *ngFor="let p of products; let counter=index" (click)="giftMe(counter)">{{counter}}.{{p}}</li>
+  </ol>
+
